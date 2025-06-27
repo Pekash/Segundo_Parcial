@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página con CSS</title>
+    <!-- conecta al archivo CSS -->
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <div class="contenedor">
+        <!-- SECCIÓN 1: Deber sobre CSS -->
+        <section>
+            <h2>Deber sobre CSS</h2>
+            <!-- Párrafo con clase especial - solo a este le aplicamos estilos diferentes -->
+            <p class="texto-especial">Este parrafo tiene una clase especial</p>
+            <!-- Párrafo con ID único - solo puede haber uno con este ID en toda la página -->
+            <p id="parrafo-unico">Este parrafo tiene un ID unico</p>
+        </section>
+
+        <!-- SECCIÓN 2: Listas y colores -->
+        <section>
+            <h2>Lista de colores</h2>
+            <ul class="lista-colores">
+                <li id="azul">Azul</li>
+                <li id="verde">Verde</li>
+                <li id="rojo">Rojo</li>
+                <li id="amarillo">Amarillo</li>
+            </ul>
+        </section>
+
+        <!-- SECCIÓN 3: Botones y enlaces -->
+        <section>
+            <h2>Botones y enlaces</h2>
+            <!-- Enlaces normales -->
+            <p>Este es un <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">enlace normal</a> en un párrafo.</p>
+            <!-- Enlace que parece botón -->
+            <a href="https://www.youtube.com/watch?v=bN1shALfJqg" class="boton">gato</a>
+            <!-- Otro botón con clase diferente -->
+            <a href="https://youtube.com/shorts/fhTGn8yj4B4?si=JGP1tATsI6b4yX6j" class="boton-rojo">cocodrilo</a>
+        </section>
+
+        <!-- SECCIÓN 4: Cajas y contenedores -->
+        <section>
+            <h2>Cajas</h2>
+            <!-- Caja simple -->
+            <div class="caja">
+                <p>Caja simple con borde y fondo</p>
+            </div>
+            <!-- Texto con clase de advertencia -->
+            <div class="advertencia">
+                <p><strong>Cuidao!</strong> Este es un mensaje importante.</p>
+            </div>
+        </section>
+        <!-- SECCIÓN 5: Efectos simples -->
+        <section>
+            <h2>Efectos con el mouse</h2>
+            <!-- Texto que cambia cuando pasas el mouse -->
+            <p class="cambio-color">Con el mouse por encima se cambia de color</p>
+            <!-- Caja que se hace más grande -->
+            <div class="caja-hover">
+                <p>Con el mouse por encima se hace más grande</p>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
