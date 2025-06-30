@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <!-- enlace al css -->
+    <link rel="stylesheet" href="evento3.css">
+</head>
+<body>
+    <!-- contenedor principal -->
+    <div class="calculadora">
+        <h1>Calculadora</h1>
+        <!-- contenedor de los inputs -->
+        <div class="inputs">
+            <!-- primer número -->
+            <input type="number" id="numero1" placeholder="Número 1">
+            <!-- segundo número -->
+            <input type="number" id="numero2" placeholder="Número 2">
+            <!-- selector de operaciones -->
+            <select id="operacion">
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">*</option>
+                <option value="/">/</option>
+            </select>
+            <!-- resultado -->
+            <input type="text" id="resultado" class="resultado" readonly>
+        </div>
+    </div>
+    <!-- enlace al js -->
+    <script src="evento3.js"></script>
+</body>
+</html>

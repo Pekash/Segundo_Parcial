@@ -1,0 +1,49 @@
+/* estilo del body */
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #416378;
+}
+/* estilo de la cuadrícula de botones */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 80px);
+    gap: 5px;
+    margin: 20px auto;
+    width: 250px;
+}
+
+/* estilo de los botones */
+button {
+    width: 80px;
+    height: 80px;
+    font-size: 24px;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+/* efecto hover para los botones */
+button:hover {
+    background-color: #e0e0e0;
+}
+
+/* estado cuando el boton este desactivado */
+button:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+}
+
+/* estilo del mensaje */
+#mensaje {
+    margin: 10px auto;
+    padding: 8px;
+    width: 250px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+}
